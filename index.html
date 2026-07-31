@@ -1,841 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Big Brother PPC — Your Trusted Google Ads &amp; Meta Ads Growth Partner</title>
-<meta name="description" content="Big Brother PPC manages Google Ads and Meta Ads for growing businesses — protecting your budget, proving your ROI, and staying with you from launch through scale. Get a free audit." />
-<meta name="keywords" content="Google Ads agency, Meta Ads agency, PPC management, Performance Max, Facebook Ads, Instagram Ads, conversion tracking, lead generation" />
-<meta name="author" content="Big Brother PPC" />
-<link rel="canonical" href="https://www.bigbrotherppc.com/" />
-
-<!-- =====================================================================
-     GOOGLE SEARCH CONSOLE VERIFICATION
-     Replace the content value with the verification code from
-     Search Console → Settings → Ownership verification → HTML tag.
-     ===================================================================== -->
-<meta name="google-site-verification" content="GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE_HERE" />
-
-<!-- =====================================================================
-     OPEN GRAPH (Facebook / Meta / LinkedIn link previews)
-     og:image points to /og-image.jpg — this file isn't part of the code
-     deliverable, so add a 1200x630 image at the project root with that
-     exact name (see README.md) or update the path below.
-     ===================================================================== -->
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="Big Brother PPC" />
-<meta property="og:title" content="Big Brother PPC — Your Trusted Google Ads & Meta Ads Growth Partner" />
-<meta property="og:description" content="Don't let poor advertising waste your hard-earned money. Big Brother PPC protects your ad budget and grows your business with Google Ads and Meta Ads done right." />
-<meta property="og:url" content="https://www.bigbrotherppc.com/" />
-<meta property="og:image" content="https://www.bigbrotherppc.com/og-image.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:locale" content="en_US" />
-
-<!-- =====================================================================
-     TWITTER / X CARD
-     ===================================================================== -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Big Brother PPC — Your Trusted Google Ads & Meta Ads Growth Partner" />
-<meta name="twitter:description" content="Google Ads and Meta Ads management that protects your budget and proves your ROI. Get a free audit." />
-<meta name="twitter:image" content="https://www.bigbrotherppc.com/og-image.jpg" />
-<!-- <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE" /> -->
-
-<!-- =====================================================================
-     PWA MANIFEST + FAVICON
-     Favicon is an inline SVG data URI (guardian shield mark) so the page
-     has zero missing image assets out of the box. Swap for a real file
-     any time — see README.md.
-     ===================================================================== -->
-<link rel="manifest" href="manifest.json" />
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230A0E14'/%3E%3Cpath d='M16 6l9 3.6v6.2c0 6.2-3.9 10.4-9 12-5.1-1.6-9-5.8-9-12V9.6L16 6z' fill='none' stroke='%2300D9A3' stroke-width='1.8'/%3E%3Ccircle cx='16' cy='16' r='3.2' fill='%2300D9A3'/%3E%3C/svg%3E" />
-<meta name="theme-color" content="#0A0E14" />
-
-<!-- =====================================================================
-     GOOGLE TAG MANAGER (head snippet)
-     Replace GTM-XXXXXXX with your real container ID.
-     ===================================================================== -->
-<script>
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-XXXXXXX'); /* <-- your GTM ID */
-</script>
-
-<!-- =====================================================================
-     GOOGLE ANALYTICS 4  +  GOOGLE ADS (gtag.js)
-     Replace G-XXXXXXXXXX with your GA4 Measurement ID.
-     Replace AW-XXXXXXXX with your Google Ads Conversion ID.
-     ===================================================================== -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');   /* <-- your GA4 Measurement ID */
-  gtag('config', 'AW-XXXXXXXX');    /* <-- your Google Ads Conversion ID */
-</script>
-
-<!-- =====================================================================
-     META PIXEL
-     Replace META_PIXEL_ID_HERE with your Pixel ID.
-     ===================================================================== -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', 'META_PIXEL_ID_HERE');   /* <-- your Meta Pixel ID */
-fbq('track', 'PageView');
-</script>
-
-<!-- =====================================================================
-     MICROSOFT CLARITY
-     Replace CLARITY_PROJECT_ID_HERE with your Clarity project ID.
-     ===================================================================== -->
-<script type="text/javascript">
-(function(c,l,a,r,i,t,y){
-    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-})(window, document, "clarity", "script", "CLARITY_PROJECT_ID_HERE"); /* <-- your Clarity project ID */
-</script>
-
-<!-- =====================================================================
-     MICROSOFT ADVERTISING (UET) TAG
-     Replace UET_TAG_ID_HERE with your UET Tag ID.
-     ===================================================================== -->
-<script>
-(function(w,d,t,r,u){
-  w[u]=w[u]||[];w[u].push({'ti': "UET_TAG_ID_HERE"}); /* <-- your UET Tag ID */
-  var f=d.getElementsByTagName(t)[0],s=d.createElement(t);
-  s.src=r;s.async=1;s.onload=s.onreadystatechange=function(){
-    var y,r=this.readyState;y=!r||r=="loaded"||r=="complete";
-    if(y){try{w.uetq.push('pageLoad')}catch(e){}}
-  };
-  f.parentNode.insertBefore(s,f);
-})(window,document,'script','//bat.bing.com/bat.js','uetq');
-</script>
-
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-<!-- =====================================================================
-     STRUCTURED DATA — Organization
-     Replace phone / address / sameAs with your real details.
-     ===================================================================== -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Big Brother PPC",
-  "url": "https://www.bigbrotherppc.com",
-  "logo": "https://www.bigbrotherppc.com/og-image.jpg",
-  "description": "Google Ads and Meta Ads management agency helping businesses protect their ad budget and grow with confidence.",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+1-000-000-0000",
-    "contactType": "sales",
-    "email": "hello@bigbrotherppc.com"
-  },
-  "sameAs": [
-    "https://www.facebook.com/YOUR_PAGE",
-    "https://www.instagram.com/YOUR_PAGE",
-    "https://www.linkedin.com/company/YOUR_PAGE"
-  ]
-}
-</script>
-
-<!-- =====================================================================
-     STRUCTURED DATA — LocalBusiness / ProfessionalService
-     Replace address, geo, and hours with your real business details.
-     If you have no public office, remove the "address" block instead of
-     leaving placeholders live.
-     ===================================================================== -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "Big Brother PPC",
-  "image": "https://www.bigbrotherppc.com/og-image.jpg",
-  "url": "https://www.bigbrotherppc.com",
-  "priceRange": "$$",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "123 Main Street, Suite 100",
-    "addressLocality": "Your City",
-    "addressRegion": "ST",
-    "postalCode": "00000",
-    "addressCountry": "US"
-  },
-  "areaServed": "US",
-  "sameAs": [
-    "https://www.facebook.com/YOUR_PAGE",
-    "https://www.instagram.com/YOUR_PAGE"
-  ]
-}
-</script>
-
-<!-- =====================================================================
-     STRUCTURED DATA — FAQPage
-     Keep this in sync with the visible FAQ section below.
-     ===================================================================== -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I have to sign a long-term contract?",
-      "acceptedAnswer": { "@type": "Answer", "text": "No. We work month-to-month. You stay because your campaigns are working, not because a contract requires it." }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you protect my ad budget?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Every account is structured with conversion tracking, budget caps, and daily monitoring before a single dollar goes live, so spend is never guessing." }
-    },
-    {
-      "@type": "Question",
-      "name": "What's included in the free audit?",
-      "acceptedAnswer": { "@type": "Answer", "text": "A full review of your account structure, tracking setup, wasted spend, and quick-win opportunities, delivered as a plain-English report — no obligation to hire us." }
-    },
-    {
-      "@type": "Question",
-      "name": "What industries do you work with?",
-      "acceptedAnswer": { "@type": "Answer", "text": "E-commerce, SaaS, home services, healthcare, legal, real estate, coaching, and other local and online businesses that run on paid leads." }
-    },
-    {
-      "@type": "Question",
-      "name": "How often will I hear from my account manager?",
-      "acceptedAnswer": { "@type": "Answer", "text": "A standing weekly check-in plus a plain-English monthly report, and same-day replies whenever you have a question in between." }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you work with small businesses, or only larger budgets?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Both. We scale our approach to your budget so smaller accounts still get proper tracking and structure, not a stripped-down version of the service." }
-    }
-  ]
-}
-</script>
-
-<!-- =====================================================================
-     STRUCTURED DATA — BreadcrumbList
-     ===================================================================== -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.bigbrotherppc.com/" }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Brother PPC | Premium Google Ads & Meta Ads Agency</title>
+    <meta name="description" content="Stop wasting money on ads. Big Brother PPC helps businesses grow with data-driven Google Ads and Meta Ads strategies.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Background Gradients -->
+    <div class="bg-gradient bg-gradient-1"></div>
+    <div class="bg-gradient bg-gradient-2"></div>
 
-<!-- =====================================================================
-     SKIP LINK — accessibility
-     ===================================================================== -->
-<a class="skip-link" href="#main">Skip to content</a>
+    <!-- Navigation -->
+    <header id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">BIG BROTHER PPC</a>
+            <nav class="desktop-nav">
+                <ul class="nav-links">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary">Free PPC Audit</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
 
-<!-- =====================================================================
-     STICKY HEADER
-     ===================================================================== -->
-<header class="site-header" id="siteHeader">
-  <div class="wrap header-inner">
-    <a href="#top" class="brand">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 32 32" width="30" height="30">
-          <rect width="32" height="32" rx="8" fill="#0A0E14"/>
-          <path d="M16 6l9 3.6v6.2c0 6.2-3.9 10.4-9 12-5.1-1.6-9-5.8-9-12V9.6L16 6z" fill="none" stroke="#00D9A3" stroke-width="1.8"/>
-          <circle cx="16" cy="16" r="3.2" fill="#00D9A3"/>
-        </svg>
-      </span>
-      <span class="brand-name">BIG BROTHER<span class="brand-suffix">PPC</span></span>
+    <!-- Mobile Navigation -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact" class="btn btn-primary">Free PPC Audit</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <h1>Stop Wasting Money on Ads.<br><span>Start Scaling Your Business.</span></h1>
+                    <p class="subheadline">We help businesses grow with Google Ads and Meta Ads using transparent strategies, data-driven optimization and long-term partnership.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary btn-large">Free PPC Audit</a>
+                        <a href="https://wa.me/919703131803" target="_blank" class="btn btn-secondary btn-large">Chat on WhatsApp</a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal-delay">
+                    <div class="abstract-shape shape-1"></div>
+                    <div class="abstract-shape shape-2"></div>
+                    <div class="glass-card hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">+340%</span>
+                            <span class="stat-label">Average ROAS</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">$10M+</span>
+                            <span class="stat-label">Ad Spend Managed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emotional Brand Story -->
+        <section id="story" class="story-section">
+            <div class="container story-container reveal">
+                <div class="story-text">
+                    <h2>Your Growth.<br>Our Mission.</h2>
+                    <p>You built your business with hard work. You poured countless hours, sweat, and capital into making your vision a reality. <strong>Your advertising budget deserves protection.</strong></p>
+                    <p>You don't need another agency that hides behind vanity metrics. You need someone who genuinely cares. Someone who treats your business like their own, analyzing every click, every conversion, and every dollar spent.</p>
+                    <p>Someone who celebrates your success. Someone who stands beside you during the challenges.</p>
+                    <p>Big Brother PPC exists to become your trusted growth partner. We don't just run ads; we engineer scalable revenue.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Omnichannel Growth Architecture</h2>
+                    <p>Comprehensive digital advertising solutions tailored for maximum ROI.</p>
+                </div>
+                <div class="services-grid">
+                    <!-- Google Ads Group -->
+                    <div class="service-card glass-card reveal">
+                        <div class="service-icon">G</div>
+                        <h3>Google Ads Masterclass</h3>
+                        <ul class="service-list">
+                            <li>Google Search Ads</li>
+                            <li>Performance Max (PMax)</li>
+                            <li>Shopping Ads</li>
+                            <li>YouTube Ads</li>
+                            <li>Display Ads</li>
+                            <li>Dynamic Remarketing</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Meta Ads Group -->
+                    <div class="service-card glass-card reveal">
+                        <div class="service-icon">M</div>
+                        <h3>Meta Ads Ecosystem</h3>
+                        <ul class="service-list">
+                            <li>Facebook Ads</li>
+                            <li>Instagram Ads</li>
+                            <li>Lead Generation Campaigns</li>
+                            <li>Catalog Sales & E-commerce</li>
+                            <li>Audience Retargeting</li>
+                            <li>Creative A/B Testing</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tracking & CRO Group -->
+                    <div class="service-card glass-card reveal">
+                        <div class="service-icon">T</div>
+                        <h3>Data & Conversion</h3>
+                        <ul class="service-list">
+                            <li>Google Analytics (GA4)</li>
+                            <li>Google Tag Manager</li>
+                            <li>Advanced Conversion Tracking</li>
+                            <li>Landing Page Optimization</li>
+                            <li>Conversion Rate Optimization (CRO)</li>
+                            <li>Server-Side Tracking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section id="why-us" class="why-us-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Why Big Brother PPC?</h2>
+                    <p>We do things differently. No secrets, no fluff, just measurable results.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-item reveal">
+                        <h4>Transparent Reporting</h4>
+                        <p>Access live dashboards 24/7. Know exactly where your money goes and what it brings back.</p>
+                    </div>
+                    <div class="feature-item reveal">
+                        <h4>Weekly Optimization</h4>
+                        <p>We don't "set and forget." We relentlessly optimize bids, keywords, and creatives every single week.</p>
+                    </div>
+                    <div class="feature-item reveal">
+                        <h4>ROI Focused</h4>
+                        <p>Clicks and impressions don't pay the bills. We optimize exclusively for revenue and qualified leads.</p>
+                    </div>
+                    <div class="feature-item reveal">
+                        <h4>Data-Driven Decisions</h4>
+                        <p>Every strategy is backed by hard data, advanced tracking, and algorithmic learning.</p>
+                    </div>
+                    <div class="feature-item reveal">
+                        <h4>Honest Advice</h4>
+                        <p>If a campaign isn't working, we'll tell you. We protect your budget as fiercely as our own.</p>
+                    </div>
+                    <div class="feature-item reveal">
+                        <h4>Long-Term Partnership</h4>
+                        <p>We aim to be the last agency you ever hire. We grow alongside your business.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="process-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Our Growth Blueprint</h2>
+                    <p>A proven, systematic approach to scaling your advertising.</p>
+                </div>
+                <div class="process-timeline">
+                    <div class="process-step reveal">
+                        <div class="step-number">01</div>
+                        <div class="step-content">
+                            <h3>Free Audit</h3>
+                            <p>We analyze your historical data, identify wasted spend, and uncover untapped opportunities.</p>
+                        </div>
+                    </div>
+                    <div class="process-step reveal">
+                        <div class="step-number">02</div>
+                        <div class="step-content">
+                            <h3>Strategy</h3>
+                            <p>We design a custom, multi-channel blueprint tailored to your specific business goals and unit economics.</p>
+                        </div>
+                    </div>
+                    <div class="process-step reveal">
+                        <div class="step-number">03</div>
+                        <div class="step-content">
+                            <h3>Campaign Setup</h3>
+                            <p>Flawless execution of tracking (GA4/GTM), ad copy creation, creative design, and campaign architecture.</p>
+                        </div>
+                    </div>
+                    <div class="process-step reveal">
+                        <div class="step-number">04</div>
+                        <div class="step-content">
+                            <h3>Optimization</h3>
+                            <p>Continuous multivariate testing, negative keyword additions, bid adjustments, and audience refinements.</p>
+                        </div>
+                    </div>
+                    <div class="process-step reveal">
+                        <div class="step-number">05</div>
+                        <div class="step-content">
+                            <h3>Scaling</h3>
+                            <p>Once we achieve target CPA/ROAS, we aggressively scale budgets to maximize market share and profit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Partner Success Stories</h2>
+                    <p>Don't just take our word for it.</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card glass-card reveal">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">"Big Brother PPC completely transformed our lead generation. Within 3 months, they reduced our Cost Per Lead by 45% while doubling our lead volume. Highly professional and deeply analytical."</p>
+                        <div class="client-info">
+                            <p class="client-name">Sarah Jenkins</p>
+                            <p class="client-role">VP of Marketing, TechFlow Solutions</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass-card reveal">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">"We've been through three agencies before finding Big Brother. They are the only ones who actually set up our GA4 tracking correctly and scaled our PMax campaigns profitably."</p>
+                        <div class="client-info">
+                            <p class="client-name">Marcus Thorne</p>
+                            <p class="client-role">Founder, Elevate E-Commerce</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass-card reveal">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">"The transparency is what sold us. We have a live dashboard, weekly check-ins, and a team that genuinely cares about our bottom line. Revenue is up 200% year-over-year."</p>
+                        <div class="client-info">
+                            <p class="client-name">David Chen</p>
+                            <p class="client-role">CEO, Aura Health Group</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Everything you need to know about partnering with Big Brother PPC.</p>
+                </div>
+                <div class="faq-accordion reveal">
+                    <!-- FAQ Items -->
+                    <div class="faq-item">
+                        <button class="faq-question">What is the minimum ad budget you work with?</button>
+                        <div class="faq-answer">
+                            <p>To ensure we can gather enough data for algorithmic optimization and deliver a strong ROI, we typically recommend a minimum ad spend of $3,000 per month across Google and Meta platforms.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Do you require long-term contracts?</button>
+                        <div class="faq-answer">
+                            <p>No. We believe in earning your business every single month. We operate on month-to-month agreements after an initial 90-day testing phase, because results should bind us together, not legal clauses.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">How long does it take to see results?</button>
+                        <div class="faq-answer">
+                            <p>While we often see quick wins within the first 14 days, true algorithmic maturity and scaling usually happen between days 45 and 90. PPC is a compounding investment, not a get-rich-quick scheme.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Do you handle ad creatives and copywriting?</button>
+                        <div class="faq-answer">
+                            <p>Yes. Our team includes expert copywriters and CRO specialists who create high-converting text ads, responsive search ads, and direct-response ad copy for Meta. For video/image assets, we provide detailed creative briefs or work with your existing content.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">How do you track conversions?</button>
+                        <div class="faq-answer">
+                            <p>We build robust tracking architectures using Google Tag Manager, GA4, Meta Pixel, and Conversions API (Server-Side Tracking). We track meaningful events like form submissions, phone calls, and actual purchases—not just pageviews.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Who owns the ad accounts?</button>
+                        <div class="faq-answer">
+                            <p>You do. Always. You grant us agency access to your Google Ads and Meta Business Manager accounts. We build all campaigns directly in your accounts, meaning you retain 100% of the data and history.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">What is included in the Free PPC Audit?</button>
+                        <div class="faq-answer">
+                            <p>We review your account structure, conversion tracking setup, wasted spend (negative keywords), bid strategies, and ad copy. We then provide a customized action plan showing exactly how we would improve performance.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Will I have a dedicated account manager?</button>
+                        <div class="faq-answer">
+                            <p>Yes. You will communicate directly with the senior media buyer managing your account. We don't use middlemen or junior reps. You talk directly to the experts optimizing your campaigns.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Do you build landing pages?</button>
+                        <div class="faq-answer">
+                            <p>Yes. Driving traffic is only half the battle. We provide Conversion Rate Optimization (CRO) consulting and can build dedicated, high-converting landing pages to ensure your ad clicks turn into leads and sales.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">How do we get started?</button>
+                        <div class="faq-answer">
+                            <p>Fill out the contact form or request a Free PPC Audit. We'll schedule a 30-minute discovery call to understand your business goals, review your current setup, and determine if we're a mutual fit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <h2>Ready to scale?</h2>
+                        <p>Let's audit your current accounts, find the wasted spend, and build a strategy for sustainable growth.</p>
+                        <div class="contact-methods">
+                            <a href="mailto:kedemkumar03@gmail.com" class="contact-method-card glass-card">
+                                <h4>Email Us</h4>
+                                <p>kedemkumar03@gmail.com</p>
+                            </a>
+                            <a href="https://wa.me/919703131803" target="_blank" class="contact-method-card glass-card">
+                                <h4>WhatsApp</h4>
+                                <p>Chat with an expert instantly</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-form-container glass-card reveal">
+                        <form id="auditForm" class="contact-form" action="thank-you.html" method="GET">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Work Email</label>
+                                    <input type="email" id="email" name="email" required placeholder="john@company.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" required placeholder="+91 97031 31803">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="business">Business Name</label>
+                                    <input type="text" id="business" name="business" required placeholder="Acme Corp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="website">Website URL</label>
+                                    <input type="url" id="website" name="website" required placeholder="https://www.example.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="budget">Monthly Ad Budget</label>
+                                <select id="budget" name="budget" required>
+                                    <option value="" disabled selected>Select your budget</option>
+                                    <option value="under_3k">Under $3,000</option>
+                                    <option value="3k_10k">$3,000 - $10,000</option>
+                                    <option value="10k_50k">$10,000 - $50,000</option>
+                                    <option value="50k_plus">$50,000+</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">How can we help you grow?</label>
+                                <textarea id="message" name="message" rows="4" required placeholder="Tell us about your current challenges and goals..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Request Free PPC Audit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">BIG BROTHER PPC</a>
+                <p>Your trusted growth partner for Google Ads and Meta Ads. Data-driven strategies, transparent reporting, relentless optimization.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Google Search Ads</a></li>
+                    <li><a href="#services">Performance Max</a></li>
+                    <li><a href="#services">Meta Advertising</a></li>
+                    <li><a href="#services">Conversion Tracking</a></li>
+                    <li><a href="#services">Landing Page CRO</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:kedemkumar03@gmail.com">Email Us</a></li>
+                    <li><a href="https://wa.me/919703131803" target="_blank">WhatsApp Chat</a></li>
+                    <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://twitter.com" target="_blank">Twitter / X</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; <span id="year"></span> Big Brother PPC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919703131803" target="_blank" class="floating-whatsapp" aria-label="Chat with us on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="#ffffff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
     </a>
 
-    <nav class="main-nav" aria-label="Primary">
-      <a href="#services">Services</a>
-      <a href="#process">Process</a>
-      <a href="#results">Results</a>
-      <a href="#offer">Pricing</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-
-    <div class="header-cta">
-      <a href="#contact" class="btn btn-ghost">Book a Strategy Call</a>
-      <a href="#contact" class="btn btn-primary">Free Audit</a>
-    </div>
-
-    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-
-  <!-- Mobile nav -->
-  <div class="mobile-nav" id="mobileNav">
-    <a href="#services">Services</a>
-    <a href="#process">Process</a>
-    <a href="#results">Results</a>
-    <a href="#offer">Pricing</a>
-    <a href="#faq">FAQ</a>
-    <a href="#contact" class="btn btn-primary">Free Audit</a>
-  </div>
-</header>
-
-<main id="main">
-
-<!-- =====================================================================
-     HERO
-     Signature element: the "Guardian Radar" — a sweeping radar graphic
-     with live-looking campaign blips and metric readouts, representing
-     24/7 oversight of ad spend. This is the one bold visual moment on
-     the page; everything else stays quiet by comparison.
-     ===================================================================== -->
-<section class="hero" id="top">
-  <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <div class="status-tag">
-        <span class="status-dot" aria-hidden="true"></span>
-        24/7 CAMPAIGN PROTECTION — ACTIVE
-      </div>
-      <h1>
-        You don't need another agency.<br>
-        <em>You need a trusted Big Brother.</em>
-      </h1>
-      <p class="hero-lede">
-        You've worked hard to build your business. Don't let poor advertising
-        waste your hard-earned money. We manage your Google Ads and Meta Ads
-        like it's our own budget on the line — because your growth is our
-        mission.
-      </p>
-      <div class="hero-actions">
-        <a href="#contact" class="btn btn-primary btn-lg">Get My Free Audit</a>
-        <a href="#contact" class="btn btn-outline btn-lg">Book a Strategy Call</a>
-      </div>
-      <p class="hero-trust">Google Ads &amp; Meta Ads specialists · 10+ years combined experience</p>
-    </div>
-
-    <div class="hero-visual" aria-hidden="true">
-      <div class="radar-panel">
-        <div class="radar-scope">
-          <div class="radar-ring r1"></div>
-          <div class="radar-ring r2"></div>
-          <div class="radar-ring r3"></div>
-          <div class="radar-sweep"></div>
-          <span class="radar-blip b1"></span>
-          <span class="radar-blip b2"></span>
-          <span class="radar-blip b3"></span>
-          <span class="radar-core"></span>
-        </div>
-        <div class="radar-readout">
-          <div class="readout-row">
-            <span>GOOGLE ADS</span>
-            <span class="readout-value up">ROAS 4.8x</span>
-          </div>
-          <div class="readout-row">
-            <span>META ADS</span>
-            <span class="readout-value up">CPL −32%</span>
-          </div>
-          <div class="readout-row">
-            <span>BUDGET STATUS</span>
-            <span class="readout-value ok">PROTECTED</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- =====================================================================
-     LOGO / TRUST STRIP (placeholder — swap for real client industries
-     or platform partner badges once available)
-     ===================================================================== -->
-<section class="trust-strip">
-  <div class="wrap trust-inner">
-    <span>E-COMMERCE</span>
-    <span>SAAS</span>
-    <span>HOME SERVICES</span>
-    <span>HEALTHCARE</span>
-    <span>LEGAL</span>
-    <span>REAL ESTATE</span>
-    <span>COACHING</span>
-  </div>
-</section>
-
-<!-- =====================================================================
-     SERVICES
-     ===================================================================== -->
-<section class="band" id="services">
-  <div class="wrap">
-    <div class="band-head">
-      <div class="eyebrow">What we manage</div>
-      <h2>Every channel that turns ad spend into customers</h2>
-      <p class="band-sub">Full-funnel paid media, built on tracking that actually tells the truth about what's working.</p>
-    </div>
-
-    <div class="service-grid">
-      <article class="service-card">
-        <div class="service-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/></svg>
-        </div>
-        <h3>Google Search &amp; Performance Max</h3>
-        <p>Search Ads, Performance Max, Shopping, Display, Demand Gen, and YouTube — structured so budget goes to intent, not noise.</p>
-      </article>
-
-      <article class="service-card">
-        <div class="service-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18" stroke="currentColor" stroke-width="1.6"/></svg>
-        </div>
-        <h3>Meta &amp; Instagram Ads</h3>
-        <p>Facebook Ads, Instagram Ads, and remarketing sequences that keep your brand in front of the people most likely to buy.</p>
-      </article>
-
-      <article class="service-card">
-        <div class="service-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M4 19V5m6 14V9m6 10V13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-        </div>
-        <h3>Tracking &amp; Analytics</h3>
-        <p>Conversion Tracking, Enhanced Conversions, Google Tag Manager, GA4, and Microsoft Clarity — set up right, the first time.</p>
-      </article>
-
-      <article class="service-card">
-        <div class="service-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-        </div>
-        <h3>Landing Page Optimization</h3>
-        <p>Pages built and tested to convert traffic once it arrives, so a good click doesn't end at a page that lets it go cold.</p>
-      </article>
-
-      <article class="service-card">
-        <div class="service-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.6"/><path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-        </div>
-        <h3>SEO Landing Pages</h3>
-        <p>Organic-ready pages that support your paid campaigns instead of competing with them for the same keywords.</p>
-      </article>
-
-      <article class="service-card">
-        <div class="service-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M12 21c-4.4-2.2-8-5.7-8-10.5V6l8-3 8 3v4.5c0 4.8-3.6 8.3-8 10.5z" stroke="currentColor" stroke-width="1.6"/></svg>
-        </div>
-        <h3>Lead Generation</h3>
-        <p>Campaigns built around one goal: a steady, predictable flow of qualified leads your sales team actually wants to call.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- =====================================================================
-     BENEFITS / EMOTIONAL STORY
-     ===================================================================== -->
-<section class="band band-alt" id="benefits">
-  <div class="wrap">
-    <div class="band-head">
-      <div class="eyebrow">Why Big Brother</div>
-      <h2>Someone who protects your advertising budget</h2>
-      <p class="band-sub">At Big Brother PPC, we don't treat you like another client. We treat you like family.</p>
-    </div>
-
-    <div class="benefit-grid">
-      <div class="benefit-card">
-        <h3>We protect your budget</h3>
-        <p>Every campaign launches with guardrails — tracking, caps, and daily checks — so your spend never turns into a guessing game.</p>
-      </div>
-      <div class="benefit-card">
-        <h3>We report in plain English</h3>
-        <p>No jargon dumps. You'll always know exactly what's working, what isn't, and what we're changing next — and why.</p>
-      </div>
-      <div class="benefit-card">
-        <h3>We stay with you at every stage</h3>
-        <p>Before launch, during optimization, and while your business scales — your success is our responsibility, not a milestone we move past.</p>
-      </div>
-      <div class="benefit-card">
-        <h3>We celebrate your growth</h3>
-        <p>When your business grows, our mission is complete. That's the actual scoreboard we're playing to, not vanity metrics.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- =====================================================================
-     PROCESS
-     A genuine sequence — numbering is meaningful here, not decorative.
-     ===================================================================== -->
-<section class="band" id="process">
-  <div class="wrap">
-    <div class="band-head">
-      <div class="eyebrow">How we work</div>
-      <h2>From audit to scale, in four stages</h2>
-      <p class="band-sub">Our team includes professionals with over 10 years of Google Ads experience helping businesses improve advertising performance.</p>
-    </div>
-
-    <div class="process-list">
-      <div class="process-step">
-        <span class="process-num">01</span>
-        <div>
-          <h3>Audit &amp; diagnose</h3>
-          <p>We open the hood on your existing account — or start from zero — to find wasted spend and missing tracking before anything launches.</p>
-        </div>
-      </div>
-      <div class="process-step">
-        <span class="process-num">02</span>
-        <div>
-          <h3>Strategy &amp; setup</h3>
-          <p>Campaign structure, conversion tracking, and creative direction, mapped to your actual sales goals, not a generic template.</p>
-        </div>
-      </div>
-      <div class="process-step">
-        <span class="process-num">03</span>
-        <div>
-          <h3>Launch &amp; protect</h3>
-          <p>Campaigns go live under daily monitoring, with budget guardrails in place from day one so early spend doesn't get wasted learning.</p>
-        </div>
-      </div>
-      <div class="process-step">
-        <span class="process-num">04</span>
-        <div>
-          <h3>Scale &amp; report</h3>
-          <p>Once we've proven what works, we scale it deliberately — with a monthly report that shows exactly where growth came from.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- =====================================================================
-     CASE STUDIES
-     Placeholder / illustrative results — replace with real, verifiable
-     client data (with permission) before publishing.
-     ===================================================================== -->
-<section class="band band-alt" id="results">
-  <div class="wrap">
-    <div class="band-head">
-      <div class="eyebrow">Results</div>
-      <h2>What protecting a budget actually looks like</h2>
-      <p class="band-sub">Illustrative examples of the kind of outcomes this process is built to produce — swap in your own verified case studies as they come in.</p>
-    </div>
-
-    <div class="case-grid">
-      <article class="case-card">
-        <div class="case-tag">E-COMMERCE</div>
-        <div class="case-stat">+142%</div>
-        <p class="case-label">Revenue from paid search, 6 months</p>
-        <p class="case-body">Rebuilt a Performance Max feed and conversion tracking that had been misreporting for over a year.</p>
-      </article>
-      <article class="case-card">
-        <div class="case-tag">HOME SERVICES</div>
-        <div class="case-stat">−38%</div>
-        <p class="case-label">Cost per qualified lead</p>
-        <p class="case-body">Consolidated three overlapping campaigns into one structure with proper call and form tracking.</p>
-      </article>
-      <article class="case-card">
-        <div class="case-tag">SAAS</div>
-        <div class="case-stat">4.6x</div>
-        <p class="case-label">Return on ad spend, Meta Ads</p>
-        <p class="case-body">Rebuilt remarketing audiences and landing pages around the actual buyer journey, not a single generic page.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- =====================================================================
-     TESTIMONIALS
-     Placeholder quotes — replace with real, attributed client
-     testimonials before publishing.
-     ===================================================================== -->
-<section class="band" id="testimonials">
-  <div class="wrap">
-    <div class="band-head">
-      <div class="eyebrow">In their words</div>
-      <h2>Businesses that finally found someone they can trust</h2>
-    </div>
-
-    <div class="testimonial-grid">
-      <blockquote class="testimonial-card">
-        <p>"For the first time, I actually understand what my ad budget is doing. They explain everything before they change it."</p>
-        <footer>— Placeholder Client, Home Services</footer>
-      </blockquote>
-      <blockquote class="testimonial-card">
-        <p>"They caught tracking issues our last agency never mentioned. It felt like someone was finally watching out for us."</p>
-        <footer>— Placeholder Client, E-commerce</footer>
-      </blockquote>
-      <blockquote class="testimonial-card">
-        <p>"Reporting is in plain English. No fluff, no vanity metrics — just what changed and why."</p>
-        <footer>— Placeholder Client, SaaS</footer>
-      </blockquote>
-    </div>
-  </div>
-</section>
-
-<!-- =====================================================================
-     INDUSTRIES
-     ===================================================================== -->
-<section class="band band-alt" id="industries">
-  <div class="wrap">
-    <div class="band-head">
-      <div class="eyebrow">Who we serve</div>
-      <h2>Built for businesses that run on paid leads</h2>
-    </div>
-    <div class="chip-row">
-      <span class="chip">E-commerce</span>
-      <span class="chip">SaaS</span>
-      <span class="chip">Home Services</span>
-      <span class="chip">Healthcare</span>
-      <span class="chip">Legal</span>
-      <span class="chip">Real Estate</span>
-      <span class="chip">Coaching &amp; Consulting</span>
-      <span class="chip">Local Business</span>
-    </div>
-  </div>
-</section>
-
-<!-- =====================================================================
-     PRICING / OFFER CTA
-     ===================================================================== -->
-<section class="offer" id="offer">
-  <div class="wrap offer-inner">
-    <div class="eyebrow eyebrow-on-dark">Special offer</div>
-    <h2>Start with a free audit. Decide with nothing to lose.</h2>
-    <p class="offer-sub">
-      Get a Free Google Ads Audit, a Free Meta Ads Audit, or a Free Growth
-      Strategy Session. Eligible businesses may also receive their first
-      month of campaign optimization at no management fee.
-      <span class="offer-terms">Terms apply.</span>
-    </p>
-    <div class="offer-actions">
-      <a href="#contact" class="btn btn-primary btn-lg">Get My Free Audit</a>
-      <a href="#contact" class="btn btn-outline-light btn-lg">Book a Strategy Call</a>
-    </div>
-  </div>
-</section>
-
-<!-- =====================================================================
-     FAQ (accordion — keep in sync with the FAQPage schema in <head>)
-     ===================================================================== -->
-<section class="band" id="faq">
-  <div class="wrap">
-    <div class="band-head">
-      <div class="eyebrow">Questions</div>
-      <h2>Straight answers, before you talk to us</h2>
-    </div>
-
-    <div class="faq-list">
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Do I have to sign a long-term contract?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><p>No. We work month-to-month. You stay because your campaigns are working, not because a contract requires it.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>How do you protect my ad budget?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><p>Every account is structured with conversion tracking, budget caps, and daily monitoring before a single dollar goes live, so spend is never guessing.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>What's included in the free audit?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><p>A full review of your account structure, tracking setup, wasted spend, and quick-win opportunities, delivered as a plain-English report — no obligation to hire us.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>What industries do you work with?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><p>E-commerce, SaaS, home services, healthcare, legal, real estate, coaching, and other local and online businesses that run on paid leads.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>How often will I hear from my account manager?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><p>A standing weekly check-in plus a plain-English monthly report, and same-day replies whenever you have a question in between.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Do you work with small businesses, or only larger budgets?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><p>Both. We scale our approach to your budget so smaller accounts still get proper tracking and structure, not a stripped-down version of the service.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- =====================================================================
-     CONTACT
-     data-lead-form="true" is what tells tracking.js to manage this form:
-     inject hidden tracking fields, intercept submit, fire conversion
-     events, and redirect to thank-you.html.
-
-     Hidden tracking fields listed in the brief — utm_source, utm_medium,
-     utm_campaign, utm_term, utm_content, utm_id, gclid, gbraid, wbraid,
-     fbclid, msclkid, landing_page, referrer, device, browser, language —
-     are injected AUTOMATICALLY by tracking.js. You do not need to add
-     them by hand.
-     ===================================================================== -->
-<section class="band band-alt" id="contact">
-  <div class="wrap contact-grid">
-    <div class="contact-copy">
-      <div class="eyebrow">Get started</div>
-      <h2>Your growth. Our mission.</h2>
-      <p class="band-sub">Tell us about your business and current advertising. We'll follow up with your free audit or to schedule your strategy call.</p>
-
-      <div class="contact-methods">
-        <a class="contact-method" href="https://wa.me/10000000000" target="_blank" rel="noopener">
-          <span class="contact-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M20 12a8 8 0 1 1-3.6-6.7L20 4l-1 3.6A7.96 7.96 0 0 1 20 12z" stroke="currentColor" stroke-width="1.6"/></svg>
-          </span>
-          WhatsApp Us
-        </a>
-        <a class="contact-method" href="mailto:hello@bigbrotherppc.com">
-          <span class="contact-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 6l9 7 9-7" stroke="currentColor" stroke-width="1.6"/></svg>
-          </span>
-          Email Us
-        </a>
-      </div>
-    </div>
-
-    <div class="form-panel">
-      <h3>Request your free audit</h3>
-      <p class="form-sub">Takes about a minute. No obligation.</p>
-
-      <form data-lead-form="true" id="leadForm">
-        <div class="field-row">
-          <div class="field">
-            <label for="name">Full name</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div class="field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-        </div>
-        <div class="field-row">
-          <div class="field">
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" required />
-          </div>
-          <div class="field">
-            <label for="company">Company</label>
-            <input type="text" id="company" name="company" />
-          </div>
-        </div>
-        <div class="field-row">
-          <div class="field">
-            <label for="website">Website</label>
-            <input type="text" id="website" name="website" placeholder="https://" />
-          </div>
-          <div class="field">
-            <label for="budget">Monthly ad budget</label>
-            <select id="budget" name="budget">
-              <option value="">Select a range</option>
-              <option value="under-1k">Under $1,000</option>
-              <option value="1k-5k">$1,000 – $5,000</option>
-              <option value="5k-15k">$5,000 – $15,000</option>
-              <option value="15k-plus">$15,000+</option>
-            </select>
-          </div>
-        </div>
-        <div class="field">
-          <label for="services">Services you're interested in</label>
-          <select id="services" name="services">
-            <option value="">Select a service</option>
-            <option value="google-ads">Google Ads</option>
-            <option value="meta-ads">Meta Ads (Facebook/Instagram)</option>
-            <option value="both">Google Ads + Meta Ads</option>
-            <option value="tracking">Tracking &amp; Analytics only</option>
-            <option value="landing-pages">Landing Page Optimization</option>
-            <option value="not-sure">Not sure yet</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="message">Tell us about your business</label>
-          <textarea id="message" name="message" rows="4"></textarea>
-        </div>
-
-        <!-- Hidden UTM / click-ID / attribution / device fields are
-             auto-injected here by tracking.js at runtime. -->
-
-        <button type="submit" class="submit-btn">Get My Free Audit</button>
-        <p class="form-error" data-form-error></p>
-        <p class="form-fineprint">
-          By submitting, you agree to be contacted about Big Brother PPC's
-          services. We don't share your info with third parties.
-        </p>
-      </form>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<!-- =====================================================================
-     FLOATING CONTACT BUTTONS
-     ===================================================================== -->
-<div class="floating-contact" aria-label="Quick contact">
-  <a href="https://wa.me/10000000000" target="_blank" rel="noopener" class="float-btn float-whatsapp" aria-label="Chat on WhatsApp">
-    <svg viewBox="0 0 24 24" fill="none"><path d="M20 12a8 8 0 1 1-3.6-6.7L20 4l-1 3.6A7.96 7.96 0 0 1 20 12z" stroke="currentColor" stroke-width="1.6"/></svg>
-  </a>
-  <a href="mailto:hello@bigbrotherppc.com" class="float-btn float-email" aria-label="Send an email">
-    <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 6l9 7 9-7" stroke="currentColor" stroke-width="1.6"/></svg>
-  </a>
-</div>
-
-<!-- =====================================================================
-     FOOTER
-     ===================================================================== -->
-<footer class="site-footer">
-  <div class="wrap footer-inner">
-    <div class="footer-brand">
-      <span class="brand-name">BIG BROTHER<span class="brand-suffix">PPC</span></span>
-      <p>Your Trusted Google Ads &amp; Meta Ads Growth Partner.</p>
-    </div>
-    <nav class="footer-nav" aria-label="Footer">
-      <a href="#services">Services</a>
-      <a href="#process">Process</a>
-      <a href="#results">Results</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <div class="footer-contact">
-      <a href="mailto:hello@bigbrotherppc.com">hello@bigbrotherppc.com</a>
-      <a href="https://wa.me/10000000000" target="_blank" rel="noopener">WhatsApp</a>
-    </div>
-  </div>
-  <div class="wrap footer-bottom">
-    <p>&copy; <span id="year"></span> Big Brother PPC. All rights reserved.</p>
-    <p class="footer-legal">Big Brother PPC is an independent Google Ads &amp; Meta Ads management agency and is not affiliated with, sponsored by, or employed by Google or Meta.</p>
-  </div>
-</footer>
-
-<!-- =====================================================================
-     SCRIPTS
-     tracking.js: the tracking engine (capture, storage, form fill,
-       conversion events). Load first so window.LeadTracking exists.
-     script.js: page-level UI (nav toggle, FAQ accordion, header shadow
-       on scroll, footer year). Depends on tracking.js only for the
-       debug-free parts — no dependency ordering issue either way.
-     ===================================================================== -->
-<script src="tracking.js"></script>
-<script src="script.js"></script>
-
+    <!-- Scripts -->
+    <script src="script.js"></script>
 </body>
 </html>
