@@ -1,306 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Grow With Kumar | Google Ads PPC Agency That Generates Leads</title>
-  <meta name="description" content="Grow With Kumar helps businesses scale with high-performance Google Ads campaigns focused on ROI, leads, and sales. Book a free strategy call today." />
-  <meta name="keywords" content="Google Ads, PPC Agency, Performance Max, Shopping Ads, YouTube Ads, Remarketing, Lead Generation, Conversion Tracking, Grow With Kumar" />
-  <meta name="author" content="Grow With Kumar" />
-  <meta name="robots" content="index, follow" />
-  <meta name="theme-color" content="#000000" />
-  <link rel="canonical" href="https://growwithkumar.com/" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ridgeline Ops &mdash; Fractional Operations Partners</title>
+<meta name="description" content="Fractional operations leadership for growing teams. Book a fit call." />
 
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Grow With Kumar | Google Ads PPC Agency" />
-  <meta property="og:description" content="High-performance Google Ads campaigns focused on ROI, leads, and sales." />
-  <meta property="og:url" content="https://growwithkumar.com/" />
-  <meta property="og:site_name" content="Grow With Kumar" />
-  <meta property="og:image" content="https://growwithkumar.com/assets/og-image.jpg" />
+<!-- =====================================================================
+     PWA / ICON METADATA
+     ===================================================================== -->
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png" />
+<link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+<meta name="theme-color" content="#0B1220" />
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Grow With Kumar | Google Ads PPC Agency" />
-  <meta name="twitter:description" content="High-performance Google Ads campaigns focused on ROI, leads, and sales." />
-  <meta name="twitter:image" content="https://growwithkumar.com/assets/og-image.jpg" />
+<!-- =====================================================================
+     GOOGLE TAG MANAGER (head snippet)
+     Replace GTM-XXXXXXX with your real container ID.
+     GTM is the recommended place to manage GA4, Google Ads, Meta Pixel,
+     and UET tags long-term — the direct snippets below are included too
+     so this page works immediately even before you've built out a GTM
+     container, and so `gtag`, `fbq`, `uetq`, and `clarity` calls in
+     tracking.js resolve without needing GTM configured yet.
+     ===================================================================== -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXXX'); /* <-- your GTM ID */
+</script>
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+<!-- =====================================================================
+     GOOGLE ANALYTICS 4  +  GOOGLE ADS (gtag.js)
+     Replace G-XXXXXXXXXX with your GA4 Measurement ID.
+     Replace AW-XXXXXXXX with your Google Ads Conversion ID.
+     Both can share one gtag.js loader — just add a second `config` line.
+     ===================================================================== -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');   /* <-- your GA4 Measurement ID */
+  gtag('config', 'AW-XXXXXXXX');    /* <-- your Google Ads Conversion ID */
+</script>
 
-  <link rel="stylesheet" href="style.css" />
+<!-- =====================================================================
+     META PIXEL
+     Replace META_PIXEL_ID_HERE with your Pixel ID.
+     ===================================================================== -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', 'META_PIXEL_ID_HERE');   /* <-- your Meta Pixel ID */
+fbq('track', 'PageView');
+</script>
 
-  <!-- Schema.org -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Grow With Kumar",
-    "description": "Google Ads PPC agency helping businesses scale with high-performance campaigns focused on ROI, leads, and sales.",
-    "url": "https://growwithkumar.com/",
-    "email": "kedemkumar04@gmail.com",
-    "telephone": "+91-9703131803",
-    "areaServed": "Worldwide",
-    "priceRange": "$$",
-    "serviceType": ["Google Search Ads", "Performance Max", "Shopping Ads", "Display Ads", "YouTube Ads", "Remarketing", "Conversion Tracking", "Landing Page Optimization", "Google Ads Audit"],
-    "sameAs": ["https://wa.me/919703131803"]
-  }
-  </script>
+<!-- =====================================================================
+     MICROSOFT CLARITY
+     Replace CLARITY_PROJECT_ID_HERE with your Clarity project ID.
+     Clarity auto-fires page views on load — no extra call needed for that.
+     ===================================================================== -->
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "CLARITY_PROJECT_ID_HERE"); /* <-- your Clarity project ID */
+</script>
+
+<!-- =====================================================================
+     MICROSOFT ADVERTISING (UET) TAG
+     Replace UET_TAG_ID_HERE with your UET Tag ID.
+     ===================================================================== -->
+<script>
+(function(w,d,t,r,u){
+  w[u]=w[u]||[];w[u].push({'ti': "UET_TAG_ID_HERE"}); /* <-- your UET Tag ID */
+  var f=d.getElementsByTagName(t)[0],s=d.createElement(t);
+  s.src=r;s.async=1;s.onload=s.onreadystatechange=function(){
+    var y,r=this.readyState;y=!r||r=="loaded"||r=="complete";
+    if(y){try{w.uetq.push('pageLoad')}catch(e){}}
+  };
+  f.parentNode.insertBefore(s,f);
+})(window,document,'script','//bat.bing.com/bat.js','uetq');
+</script>
+
+<!-- <noscript> fallback for GTM — required by GTM's own install docs -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- =====================================================================
+     FONTS + STYLESHEET
+     ===================================================================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <!-- Skip link for accessibility -->
-  <a class="skip-link" href="#hero">Skip to main content</a>
 
-  <!-- Navbar -->
-  <header class="navbar" id="navbar">
-    <div class="container nav-inner">
-      <a href="#hero" class="logo" aria-label="Grow With Kumar home">
-        <span class="logo-mark" aria-hidden="true"></span>
-        Grow<span class="logo-accent">With</span>Kumar
-      </a>
-      <nav class="nav-links" id="navLinks" aria-label="Primary">
-        <a href="#services">Services</a>
-        <a href="#why">Why Us</a>
-        <a href="#process">Process</a>
-        <a href="#industries">Industries</a>
-        <a href="#results">Results</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact" class="btn btn-primary btn-sm">Book a Call</a>
-      </nav>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+<header>
+  <div class="wrap nav">
+    <div class="logo"><span class="logo-mark"></span>Ridgeline Ops</div>
+    <a class="nav-cta" href="#lead-form">Book a fit call</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Fractional Ops Partners</div>
+      <h1>Run operations like <em>someone's</em><br>actually watching the dashboard.</h1>
+      <p class="lede">
+        Ridgeline places a senior operations lead inside your company,
+        part-time, to fix the process gaps slowing your team down —
+        without the cost of a full-time hire.
+      </p>
+      <div class="proof-row">
+        <div class="proof-item"><b>38</b>teams supported</div>
+        <div class="proof-item"><b>6&nbsp;wks</b>avg. time to impact</div>
+        <div class="proof-item"><b>4.9/5</b>client rating</div>
+      </div>
     </div>
-  </header>
 
-  <main>
-    <!-- Hero -->
-    <section class="hero" id="hero">
-      <div class="hero-glow" aria-hidden="true"></div>
-      <div class="container hero-inner">
-        <p class="eyebrow reveal">Google Ads &bull; PPC Performance Agency</p>
-        <h1 class="hero-title reveal">Grow Your Business with <span class="accent">Google Ads</span> That Actually Generate Leads</h1>
-        <p class="hero-sub reveal">Grow With Kumar helps businesses scale with high-performance Google Ads campaigns focused on ROI, leads, and sales.</p>
-        <div class="hero-cta reveal">
-          <a href="#contact" class="btn btn-primary">Book Free Strategy Call</a>
-          <a href="https://wa.me/919703131803" class="btn btn-ghost" target="_blank" rel="noopener">Chat on WhatsApp</a>
-        </div>
-        <ul class="hero-trust reveal">
-          <li><strong>4.2x</strong> Avg. ROAS</li>
-          <li><strong>+180%</strong> Lead Growth</li>
-          <li><strong>-37%</strong> Cost / Lead</li>
-        </ul>
-      </div>
-    </section>
+    <!-- =================================================================
+         LEAD FORM
+         data-lead-form="true" is what tells tracking.js to manage this
+         form: inject hidden tracking fields, intercept submit, fire
+         conversion events, and redirect to the thank-you page.
 
-    <!-- Services -->
-    <section class="section" id="services">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">What We Do</p>
-          <h2>Full-funnel Google Ads services</h2>
-          <p class="section-lead">Everything you need to launch, scale, and optimize campaigns that convert.</p>
-        </div>
-        <div class="grid grid-3">
-          <article class="card glass reveal"><h3>Google Search Ads</h3><p>Capture high-intent buyers the moment they search for what you offer.</p></article>
-          <article class="card glass reveal"><h3>Performance Max</h3><p>AI-driven campaigns across Google's entire inventory for maximum reach.</p></article>
-          <article class="card glass reveal"><h3>Shopping Ads</h3><p>Showcase products with images and pricing to drive qualified sales.</p></article>
-          <article class="card glass reveal"><h3>Display Ads</h3><p>Build awareness with striking creative across millions of websites.</p></article>
-          <article class="card glass reveal"><h3>YouTube Ads</h3><p>Tell your story with video that turns viewers into customers.</p></article>
-          <article class="card glass reveal"><h3>Remarketing</h3><p>Re-engage visitors and recover lost conversions with precision.</p></article>
-          <article class="card glass reveal"><h3>Conversion Tracking</h3><p>Accurate measurement so every rupee is tied to real results.</p></article>
-          <article class="card glass reveal"><h3>Landing Page Optimization</h3><p>Faster, sharper pages engineered to convert paid traffic.</p></article>
-          <article class="card glass reveal"><h3>Google Ads Audit</h3><p>A deep account review that uncovers wasted spend and growth gaps.</p></article>
-        </div>
-      </div>
-    </section>
+         Hidden tracking fields are injected AUTOMATICALLY by tracking.js
+         — you do not need to add them by hand. They are added right
+         before this comment closes, one per captured parameter:
+         utm_source, utm_medium, utm_campaign, utm_term, utm_content,
+         utm_id, gclid, gbraid, wbraid, fbclid, msclkid, referrer,
+         landing_page, first_page, current_page.
+         ================================================================= -->
+    <div class="form-panel" id="lead-form">
+      <h2>Get your fit assessment</h2>
+      <p class="form-sub">15-minute call. No deck, no pitch — just a straight answer on fit.</p>
 
-    <!-- Why Choose Us -->
-    <section class="section section-alt" id="why">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Why Choose Us</p>
-          <h2>Performance you can measure</h2>
-          <p class="section-lead">We don't chase clicks. We chase revenue.</p>
+      <form data-lead-form="true" id="leadForm">
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required />
         </div>
-        <div class="grid grid-2">
-          <article class="card glass reveal"><span class="card-num">01</span><h3>ROI-First Strategy</h3><p>Every campaign is built around leads, sales, and return — not vanity metrics.</p></article>
-          <article class="card glass reveal"><span class="card-num">02</span><h3>Transparent Reporting</h3><p>Live dashboards and plain-English reviews. You always know what's working.</p></article>
-          <article class="card glass reveal"><span class="card-num">03</span><h3>Senior Expertise</h3><p>Your account is managed by specialists, never handed to junior interns.</p></article>
-          <article class="card glass reveal"><span class="card-num">04</span><h3>Rapid Optimization</h3><p>Continuous testing on creatives, keywords, and bids to compound results.</p></article>
+        <div class="field">
+          <label for="email">Work email</label>
+          <input type="email" id="email" name="email" required />
         </div>
-      </div>
-    </section>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+        <div class="field">
+          <label for="message">What's the biggest operational bottleneck right now?</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
 
-    <!-- Our Process -->
-    <section class="section" id="process">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Our Process</p>
-          <h2>How we drive growth</h2>
-        </div>
-        <ol class="process">
-          <li class="process-step reveal"><span class="step-no">1</span><h3>Discovery &amp; Audit</h3><p>We analyze your goals, audience, and existing account performance.</p></li>
-          <li class="process-step reveal"><span class="step-no">2</span><h3>Strategy &amp; Setup</h3><p>We build a tailored roadmap, tracking, and campaign architecture.</p></li>
-          <li class="process-step reveal"><span class="step-no">3</span><h3>Launch &amp; Optimize</h3><p>Campaigns go live and are optimized daily for cost and conversions.</p></li>
-          <li class="process-step reveal"><span class="step-no">4</span><h3>Scale &amp; Report</h3><p>We scale winners profitably and report on the metrics that matter.</p></li>
-        </ol>
-      </div>
-    </section>
+        <!-- Hidden UTM / click-ID / attribution fields are auto-injected
+             here by tracking.js at runtime. -->
 
-    <!-- Industries -->
-    <section class="section section-alt" id="industries">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Industries We Serve</p>
-          <h2>Growth across every vertical</h2>
-        </div>
-        <div class="chips">
-          <span class="chip reveal">E-commerce</span>
-          <span class="chip reveal">Real Estate</span>
-          <span class="chip reveal">Healthcare</span>
-          <span class="chip reveal">SaaS &amp; Tech</span>
-          <span class="chip reveal">Education</span>
-          <span class="chip reveal">Home Services</span>
-          <span class="chip reveal">Finance</span>
-          <span class="chip reveal">Legal</span>
-          <span class="chip reveal">Automotive</span>
-          <span class="chip reveal">Hospitality</span>
-          <span class="chip reveal">B2B Services</span>
-          <span class="chip reveal">Local Business</span>
-        </div>
-      </div>
-    </section>
+        <button type="submit" class="submit-btn">Request my fit call</button>
+        <p class="form-error" data-form-error></p>
+        <p class="form-fineprint">
+          By submitting, you agree to be contacted about Ridgeline's
+          services. We don't share your info with third parties.
+        </p>
+      </form>
 
-    <!-- Client Results -->
-    <section class="section" id="results">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Client Results</p>
-          <h2>Numbers that speak for themselves</h2>
-        </div>
-        <div class="grid grid-4 stats">
-          <div class="stat reveal"><span class="stat-num" data-target="4.2" data-suffix="x">0</span><p>Average ROAS</p></div>
-          <div class="stat reveal"><span class="stat-num" data-target="180" data-suffix="%">0</span><p>Lead Growth</p></div>
-          <div class="stat reveal"><span class="stat-num" data-target="37" data-suffix="%" data-prefix="-">0</span><p>Lower Cost / Lead</p></div>
-          <div class="stat reveal"><span class="stat-num" data-target="120" data-suffix="+">0</span><p>Campaigns Managed</p></div>
-        </div>
+      <!-- =============================================================
+           ATTRIBUTION DEBUG PANEL (optional, safe to delete)
+           Behavior lives in js/script.js. Reads live from
+           window.LeadTracking so you can visually confirm UTM/click-ID
+           capture while testing campaign links, before sending real ad
+           traffic here.
+           ============================================================= -->
+      <div class="debug-panel">
+        <button type="button" class="debug-toggle" id="debugToggle">
+          <span>▸ Attribution data captured this session</span>
+          <span id="debugCount">0 values</span>
+        </button>
+        <div class="debug-body" id="debugBody"></div>
       </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="section section-alt" id="testimonials">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Testimonials</p>
-          <h2>What clients say</h2>
-        </div>
-        <div class="grid grid-3">
-          <figure class="card glass testimonial reveal"><blockquote>"Our lead volume nearly tripled in three months without raising the budget. Genuinely game-changing."</blockquote><figcaption><strong>Ananya R.</strong><span>Founder, D2C Skincare</span></figcaption></figure>
-          <figure class="card glass testimonial reveal"><blockquote>"Finally an agency that speaks in revenue, not clicks. The reporting alone is worth it."</blockquote><figcaption><strong>Rohan M.</strong><span>Director, Real Estate</span></figcaption></figure>
-          <figure class="card glass testimonial reveal"><blockquote>"Cut our cost per lead by a third and scaled sales fast. Highly recommend Grow With Kumar."</blockquote><figcaption><strong>Priya S.</strong><span>CMO, SaaS Startup</span></figcaption></figure>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="section" id="faq">
-      <div class="container container-narrow">
-        <div class="section-head reveal">
-          <p class="eyebrow">FAQ</p>
-          <h2>Frequently asked questions</h2>
-        </div>
-        <div class="faq">
-          <details class="faq-item reveal"><summary>How soon will I see results?</summary><p>Most accounts see meaningful improvements within the first 30 days, with compounding gains as we optimize.</p></details>
-          <details class="faq-item reveal"><summary>What is the minimum ad budget?</summary><p>We work best with businesses spending at least a few hundred dollars per month, but we'll advise the right budget on your free call.</p></details>
-          <details class="faq-item reveal"><summary>Do you offer contracts?</summary><p>We keep it flexible. No long lock-ins — we earn your business with results every month.</p></details>
-          <details class="faq-item reveal"><summary>Will I have full access to my account?</summary><p>Absolutely. You own your Google Ads account and data — full transparency, always.</p></details>
-          <details class="faq-item reveal"><summary>Which industries do you work with?</summary><p>We serve e-commerce, real estate, healthcare, SaaS, local services, and many more verticals.</p></details>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="section section-alt" id="contact">
-      <div class="container container-narrow">
-        <div class="section-head reveal">
-          <p class="eyebrow">Contact</p>
-          <h2>Book your free strategy call</h2>
-          <p class="section-lead">Tell us about your business and we'll map out your growth plan.</p>
-        </div>
-        <form class="contact-form glass reveal" id="contactForm" novalidate>
-          <div class="field">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" autocomplete="name" required />
-          </div>
-          <div class="field">
-            <label for="business">Business</label>
-            <input type="text" id="business" name="business" autocomplete="organization" />
-          </div>
-          <div class="field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" autocomplete="email" required />
-          </div>
-          <div class="field">
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" autocomplete="tel" />
-          </div>
-          <div class="field">
-            <label for="budget">Monthly Budget</label>
-            <select id="budget" name="budget">
-              <option value="">Select a range</option>
-              <option>Under $500</option>
-              <option>$500 - $2,000</option>
-              <option>$2,000 - $5,000</option>
-              <option>$5,000 - $10,000</option>
-              <option>$10,000+</option>
-            </select>
-          </div>
-          <div class="field field-full">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-          </div>
-          <div class="field-full form-actions">
-            <button type="submit" class="btn btn-primary">Send &amp; Book Call</button>
-            <a href="https://wa.me/919703131803" class="btn btn-ghost" target="_blank" rel="noopener">Chat on WhatsApp</a>
-          </div>
-        </form>
-        <div class="contact-direct reveal">
-          <a href="mailto:kedemkumar04@gmail.com">kedemkumar04@gmail.com</a>
-          <span aria-hidden="true">&bull;</span>
-          <a href="tel:+919703131803">+91 97031 31803</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <a href="#hero" class="logo">Grow<span class="logo-accent">With</span>Kumar</a>
-        <p>High-performance Google Ads campaigns focused on ROI, leads, and sales.</p>
-      </div>
-      <nav class="footer-links" aria-label="Footer">
-        <a href="#services">Services</a>
-        <a href="#process">Process</a>
-        <a href="#results">Results</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact">Contact</a>
-      </nav>
     </div>
-    <div class="container footer-bottom">
-      <p>&copy; <span id="year"></span> Grow With Kumar. All rights reserved.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>What a fractional ops lead actually does</h2>
+    <p class="sub">Not advice. Not a workshop. Someone who sits in your systems and fixes what's broken.</p>
+    <div class="grid-3">
+      <div class="card">
+        <div class="num">01</div>
+        <h3>Process audit</h3>
+        <p>Two weeks mapping how work actually moves through your team, versus how you think it moves.</p>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <h3>Systems cleanup</h3>
+        <p>Consolidate the tools you're paying for, kill the ones nobody uses, and wire the rest together.</p>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <h3>Ongoing ownership</h3>
+        <p>Weekly check-ins and a standing owner for operations, so fixes don't quietly unravel in month three.</p>
+      </div>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <!-- Floating WhatsApp -->
-  <a href="https://wa.me/919703131803" class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
-    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" fill="currentColor"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.6c1.7.9 3.7 1.4 5.8 1.4h.01C22.6 28.8 28 23.4 28 16.8 28 9.9 22.6 3 16 3zm0 23.2c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-4.9 1 1-4.7-.3-.4A9.5 9.5 0 0 1 6.5 15C6.5 9.8 10.8 5.5 16 5.5S25.5 9.8 25.5 15 21.2 26.2 16 26.2zm5.3-7.1c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-1.7-.9-2.8-1.6-4-3.5-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.6 1.9.8 2.7.9 3.6.8.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/></svg>
-  </a>
+<footer>
+  <div class="wrap">
+    Ridgeline Ops &mdash; this page is a demo template for lead-tracking architecture.
+  </div>
+</footer>
 
-  <script src="script.js" defer></script>
+<!-- =====================================================================
+     SCRIPTS
+     tracking.js: the tracking engine (capture, storage, form fill,
+       conversion events). Load first so window.LeadTracking exists.
+     script.js: page-level UI only (debug panel). Depends on tracking.js.
+     Both loaded at the end of <body> so the DOM (including the form
+     above) exists before either runs.
+     ===================================================================== -->
+<script src="js/tracking.js"></script>
+<script src="js/script.js"></script>
+
 </body>
 </html>
