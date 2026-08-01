@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You | Big Brother PPC</title>
+<meta name="description" content="Thank you for reaching out to Big Brother PPC. Your request has been received and a strategist will be in touch shortly.">
+<meta name="robots" content="noindex, follow">
+<link rel="icon" href="data:,">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+  /* Page-specific styles for the thank-you screen */
+  .ty-page{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 32px 20px;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+  .ty-page::before{
+    content:"";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(650px 500px at 82% 12%, rgba(0,191,166,0.16), transparent 60%),
+      radial-gradient(600px 500px at 10% 90%, rgba(255,90,31,0.14), transparent 60%);
+    z-index: -1;
+  }
+  .ty-card{
+    max-width: 560px;
+    width: 100%;
+    background: linear-gradient(180deg, var(--ink-2), var(--ink-3));
+    border: 1px solid var(--ink-border);
+    border-radius: var(--radius-lg);
+    padding: clamp(32px, 6vw, 56px);
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+  }
+  .ty-check{
+    width: 84px;
+    height: 84px;
+    margin-inline: auto 24px;
+    border-radius: 50%;
+    background: var(--data-tint);
+    border: 1px solid rgba(0,191,166,0.35);
+    display: grid;
+    place-items: center;
+    position: relative;
+  }
+  .ty-check svg{
+    width: 38px;
+    height: 38px;
+    color: var(--data);
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: draw-check 0.7s 0.2s var(--ease) forwards;
+  }
+  .ty-check::after{
+    content: "";
+    position: absolute;
+    inset: -8px;
+    border-radius: 50%;
+    border: 1.5px solid var(--data);
+    opacity: 0;
+    animation: ty-ring 1.2s 0.15s var(--ease) forwards;
+  }
+  @keyframes draw-check{ to{ stroke-dashoffset: 0; } }
+  @keyframes ty-ring{
+    0%{ transform: scale(0.6); opacity: 0.9; }
+    100%{ transform: scale(1.3); opacity: 0; }
+  }
+  .ty-eyebrow{
+    font-family: var(--font-mono);
+    font-size: 0.76rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--data);
+    margin-bottom: 14px;
+    display: block;
+  }
+  .ty-card h1{
+    font-family: var(--font-display);
+    color: var(--white);
+    font-size: clamp(1.6rem, 4vw, 2.1rem);
+    margin-bottom: 14px;
+  }
+  .ty-card p{
+    color: var(--ink-muted);
+    font-size: 1rem;
+    max-width: 42ch;
+    margin-inline: auto 28px;
+    margin-bottom: 28px;
+  }
+  .ty-steps{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--ink-border);
+    border-radius: var(--radius-md);
+    padding: 20px 22px;
+    margin-bottom: 30px;
+  }
+  .ty-step{ display: flex; align-items: flex-start; gap: 12px; font-size: 0.9rem; color: var(--paper); }
+  .ty-step svg{ width: 18px; height: 18px; color: var(--signal); flex-shrink: 0; margin-top: 2px; }
+  .ty-actions{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .ty-home{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 18px;
+    font-size: 0.88rem;
+    color: var(--ink-muted);
+  }
+  .ty-home:hover{ color: var(--data); }
+  .ty-home svg{ width: 16px; height: 16px; }
+</style>
+</head>
+<body>
+
+<main class="ty-page">
+  <div class="ty-card">
+    <span class="ty-eyebrow">Request received</span>
+
+    <div class="ty-check" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12.5l4.5 4.5L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+
+    <h1>Thank you — your audit request is in.</h1>
+    <p>A Big Brother PPC strategist will review your details and get back to you within 24 hours with a straightforward breakdown of your Google &amp; Meta Ads opportunity.</p>
+
+    <div class="ty-steps">
+      <div class="ty-step">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9"/></svg>
+        <span>We'll review your business and current ad presence.</span>
+      </div>
+      <div class="ty-step">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9"/></svg>
+        <span>A strategist will call or WhatsApp you to confirm a few details.</span>
+      </div>
+      <div class="ty-step">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9"/></svg>
+        <span>You'll receive a free, no-obligation audit summary.</span>
+      </div>
+    </div>
+
+    <div class="ty-actions">
+      <a href="tel:+919703131803" class="btn btn--primary">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15.5 17.5c-5.3-1.2-9.8-5.7-11-11l3-2.5 1.5 4.5-2 1.5c1 2.5 2.5 4 5 5l1.5-2 4.5 1.5-2.5 3z" stroke-linejoin="round" stroke-linecap="round"/></svg>
+        <span>Call Now</span>
+      </a>
+      <a href="https://wa.me/919703131803?text=Hi%20Big%20Brother%20PPC%2C%20I%20just%20submitted%20an%20audit%20request." class="btn btn--whatsapp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.6.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.5-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C10 9 9.4 7.6 9.2 7c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 1.9 3 4.7 4.1.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.5 5.2L2 22l4.9-1.4C8.4 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.6-1.3l-.3-.2-3.1.9.9-3-.2-.3C3.9 14.9 3.4 13.5 3.4 12c0-4.8 3.9-8.6 8.6-8.6 4.8 0 8.6 3.9 8.6 8.6 0 4.8-3.9 8.6-8.6 8.6z"/></svg>
+        <span>WhatsApp Us</span>
+      </a>
+    </div>
+
+    <a href="index.html" class="ty-home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11l9-8 9 8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 10v10h14V10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Return to Homepage
+    </a>
+  </div>
+</main>
+
+</body>
+</html>
